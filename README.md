@@ -1,6 +1,6 @@
 <div class="container">
     <img id="sticker" src="https://media.giphy.com/media/t8xgPfC5oNIRMrNooe/giphy.gif" alt="Panda">
-    <h1 id="question">Will you be my Valentine, MERVAT? ❤️</h1>
+    <h1 id="question">Will you be my Valentine, Reham? ❤️</h1>
     <div id="message"></div>
     <div class="buttons">
         <button id="yesBtn">Yes</button>
@@ -38,7 +38,7 @@
     yesBtn.onclick = function() {
         // تغيير النص
         question.innerText = "Yay! I Love You! ❤️";
-        message.innerText = "i love you MERVAT! 🥰";
+        message.innerText = "i love you Reham! 🥰";
         
         // تغيير الصورة باستخدام الرابط اللي حملناه مسبقاً
         sticker.src = preloader.src;
